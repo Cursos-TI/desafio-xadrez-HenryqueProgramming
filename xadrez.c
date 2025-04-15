@@ -25,6 +25,18 @@ int main() {
         printf("Direita\n");
         torre++;
     }
+
+    // Bispo - Do-While
+
+    int bispo = 1;
+
+    do{
+        printf("Cima, direita\n");
+        bispo++;
+        
+    } while (bispo <= 5);
+
+    printf("Movimentação do bispo: \n\n");
  
     return 0;
 }
