@@ -12,7 +12,19 @@ Movimentação das peças de xadrez
 4. Cavalo - Aninhado
 
 */
+
 int main() {
+
+    // Torre - While
+
+    int torre = 1;
+
+    printf("Movimentação da torre: \n\n");
+
+    while (torre <= 5){
+        printf("Direita\n");
+        torre++;
+    }
  
     return 0;
 }
