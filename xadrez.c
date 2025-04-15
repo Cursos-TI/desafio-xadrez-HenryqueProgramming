@@ -19,7 +19,7 @@ int main() {
 
     int torre = 1;
 
-    printf("Movimentação da torre: \n\n");
+    printf("\nMovimentação da torre: \n\n");
 
     while (torre <= 5){
         printf("Direita\n");
@@ -30,7 +30,7 @@ int main() {
 
     int bispo = 1;
 
-    printf("Movimentação do bispo: \n\n");
+    printf("\nMovimentação do bispo: \n\n");
 
     do{
         printf("Cima, direita\n");
@@ -40,7 +40,7 @@ int main() {
 
     // Rainha - For
 
-    printf("Movimentação da rainha: \n\n");
+    printf("\nMovimentação da rainha: \n\n");
 
     for (int rainha = 1; rainha <= 8; rainha++){
         printf("Esquerda\n");
@@ -50,15 +50,16 @@ int main() {
 
     int cavalo = 1;
 
-    printf("Movimentação do cavalo: \n\n");
+    printf("\nMovimentação do cavalo: \n\n");
 
     do{
-        for(int i = 1; i<= 5; i++){
-            printf("Baixo!\n");
+        for(int i = 0; i < 2; i++){
+            printf("Cima!\n");
         }
-        printf("Esquerda!\n");
+        printf("Direita!\n");
         cavalo++;
     } while (cavalo <= 1);
  
     return 0;
 }
+
