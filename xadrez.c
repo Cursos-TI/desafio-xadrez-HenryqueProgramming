@@ -51,6 +51,14 @@ int main() {
     int cavalo = 1;
 
     printf("Movimentação do cavalo: \n\n");
+
+    do{
+        for(int i = 1; i<= 5; i++){
+            printf("Baixo!\n");
+        }
+        printf("Esquerda!\n");
+        cavalo++;
+    } while (cavalo <= 1);
  
     return 0;
 }
