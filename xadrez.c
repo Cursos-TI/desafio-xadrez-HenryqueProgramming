@@ -30,13 +30,27 @@ int main() {
 
     int bispo = 1;
 
+    printf("Movimentação do bispo: \n\n");
+
     do{
         printf("Cima, direita\n");
         bispo++;
-        
+
     } while (bispo <= 5);
 
-    printf("Movimentação do bispo: \n\n");
+    // Rainha - For
+
+    printf("Movimentação da rainha: \n\n");
+
+    for (int rainha = 1; rainha <= 8; rainha++){
+        printf("Esquerda\n");
+    }
+
+    // Cavalo - Aninhado
+
+    int cavalo = 1;
+
+    printf("Movimentação do cavalo: \n\n");
  
     return 0;
 }
